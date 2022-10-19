@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main() {
+    int startingNumber=2;
+    int lastNumber=500;
+    for(int startingNumber;startingNumber<=lastNumber;startingNumber++){
+
+        int squareNum=startingNumber*startingNumber;
+        printf("The square of  ");
+        printf("%i",startingNumber);
+        printf(" is  ");
+
+        printf("%i\n",squareNum);
+    }
+}
